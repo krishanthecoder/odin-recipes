@@ -1,3 +1,32 @@
-body {
-    background-color: #e6f9fc;
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #500303;
 }
+
+body {
+    background-color: #FCE9E6;
+}
+
+.container {
+    width: 900px;
+    background-color: #e6f9fc;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ol {
+    padding-left: 0;
+    list-style-position: inside;
+}
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
